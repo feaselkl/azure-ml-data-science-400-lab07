@@ -4,12 +4,9 @@
 
 name: training_env
 dependencies:
-  - python=3.6.2
-  - scikit-learn=0.23.2
+  - python=3.7
+  - scikit-learn=0.24.1
   - pandas=1.1.5
   - matplotlib=3.3.3
-  - pip:
-    - azureml-defaults==1.27.*
-    - azureml-sdk==1.27.*
 channels:
   - conda-forge
